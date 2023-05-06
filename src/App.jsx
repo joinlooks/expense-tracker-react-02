@@ -9,7 +9,6 @@ import { GlobalProvider } from "./contexts/GlobalState";
 function App() {
 	return (
 		<div className="flex justify-center flex-col max-w-sm mx-auto">
-			<h1>DEbug</h1>
 			<GlobalProvider>
 				<Header />
 				<div className="px-5">
